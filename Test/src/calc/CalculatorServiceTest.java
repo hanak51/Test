@@ -11,7 +11,7 @@ class CalculatorServiceTest {
     private CalculatorService service;
     
     @BeforeEach
-    public void setup() {
+    public void setUp() {
         //テスト前にCalculatorとCalculatorServiceをセットアップ
         calculator = new Calculator();
         service = new CalculatorService(calculator);
